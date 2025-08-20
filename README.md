@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-media-links-card-with-flexbox-f352oU6wRk](https://www.frontendmentor.io/solutions/social-media-links-card-with-flexbox-f352oU6wRk)
 - Live Site URL: [https://social-links-profile-navy-iota.vercel.app](https://social-links-profile-navy-iota.vercel.app)
 
 ## Author
