@@ -25,6 +25,8 @@
   --dark-gray: #141414;
   --medium-gray: #1f1f1f;
   --light-gray: #333333;
+
+  --default-font-size: 0.9rem;
 }
 
 * {
@@ -80,7 +82,6 @@ body {
 
 .card__location {
   color: var(--accent-color);
-  font-size: 1rem;
   font-weight: 700;
 
   margin-block-end: 2rem;
@@ -107,7 +108,6 @@ body {
   padding: 0.8rem 0;
   border-radius: 6px;
   font-weight: 700;
-  font-size: 1rem;
   cursor: pointer;
   color: inherit;
   text-decoration: inherit;
@@ -117,4 +117,10 @@ body {
 .link a:hover {
   background-color: var(--accent-color);
   color: var(--dark-gray);
+}
+
+.card__location,
+.card__description,
+.link a {
+  font-size: var(--default-font-size);
 }
