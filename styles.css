@@ -21,6 +21,7 @@
 
 :root {
   --accent-color: #c5f82a;
+  --white: #ffffff;
   --dark-gray: #141414;
   --medium-gray: #1f1f1f;
   --light-gray: #333333;
@@ -33,7 +34,7 @@
 
 body {
   background-color: var(--dark-gray);
-  color: #ffffff;
+  color: var(--white);
   height: 100vh;
   overflow-y: scroll;
 
@@ -41,7 +42,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  font-family: Inter;
+  font-family: Inter, sans-serif;
 }
 
 .card {
@@ -58,7 +59,7 @@ body {
 }
 
 .card__avatar-container {
-  background-color: #c5f82a;
+  background-color: var(--accent-color);
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
@@ -96,16 +97,17 @@ body {
 
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1rem;
 }
 
 .link a {
   display: block;
   width: 100%;
   background-color: var(--light-gray);
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   border-radius: 10px;
   font-weight: 700;
+  font-size: 1rem;
   cursor: pointer;
   color: inherit;
   text-decoration: inherit;
