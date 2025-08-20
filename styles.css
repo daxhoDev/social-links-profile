@@ -105,7 +105,7 @@ body {
   width: 100%;
   background-color: var(--light-gray);
   padding: 0.8rem 0;
-  border-radius: 10px;
+  border-radius: 6px;
   font-weight: 700;
   font-size: 1rem;
   cursor: pointer;
